@@ -1,0 +1,124 @@
+/* Listagem.css */
+.listagem-container {
+  padding: 20px;
+}
+
+.card-cliente {
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #e90c0c;
+  width: calc(24% - 24px);
+  box-sizing: border-box;
+  margin: 10px;
+  color: white;
+  min-width: 250px; /* Adicionado para garantir largura mínima */
+}
+
+.card-cliente h3 {
+  margin-bottom: 10px;
+}
+
+.card-cliente .info {
+  margin-top: 10px;
+  white-space: nowrap; /* Adicionado para evitar quebra de linha */
+}
+
+.card-cliente .info p {
+  margin: 5px 0;
+}
+
+.card-cliente .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card-cliente .icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 400px;
+}
+
+.modal h3 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 28px;
+  color: #343a40;
+  font-weight: 600;
+}
+
+.modal .form-group {
+  margin-bottom: 25px;
+}
+
+.modal label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.modal input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  background-color: white;
+  font-size: 16px;
+  color: #495057;
+  transition: border-color 0.3s ease;
+}
+
+.modal input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.modal .modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.modal .modal-buttons button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.modal .modal-buttons button:first-child {
+  margin-right: 15px;
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.modal .modal-buttons button:first-child:hover {
+  background-color: #dee2e6;
+}
+
+.modal .modal-buttons button:last-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal .modal-buttons button:last-child:hover {
+  background-color: #0056b3;
+}

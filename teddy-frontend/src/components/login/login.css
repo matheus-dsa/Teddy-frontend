@@ -1,0 +1,39 @@
+.login-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa toda a altura da tela */
+  }
+  
+  .login-content {
+    padding: 40px;
+    text-align: center; /* Alinha o texto ao centro */
+    width: 400px; /* Largura máxima do conteúdo (ajuste conforme necessário) */
+  }
+  
+  .login-content h3 {
+    color: #000000;
+  }
+  
+  .login-content input {
+    width: 100%; /* Largura total do input */
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que a largura inclua o padding e a borda */
+  }
+  .login-content input :hover{
+    color: white;
+  }
+  .login-content button {
+    width: 100%; /* Largura total do botão */
+    padding: 12px;
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
